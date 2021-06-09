@@ -10,6 +10,6 @@ print(contohawal.dtypes) #ngasih tau tipe data untuk tiap kolom
 
 url = "http://users.stat.ufl.edu/~winner/data/resid_energy.dat"
 data_energi = pd.read_csv(url, sep=r"\s+", header = None) #sep=r"\s+" digunain biar setiap ada space dianggep kolom baru, terus tambahin header = None kalo gaada header kolom
-print(data_energi.head()) 
+print(data_energi.head())
 print(data_energi.shape)
 print(data_energi.dtypes)
